@@ -1,0 +1,84 @@
+\documentclass[11pt]{article}
+
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{mathtools}
+
+\pagestyle{empty}
+\textwidth      165mm
+\textheight     258mm
+\topmargin      -20mm
+\oddsidemargin  -2mm
+\evensidemargin -2mm
+
+\newcommand{\set}[1]{\left\{
+\begin{array}{l}#1
+\end{array}
+\right\}}
+
+\newcommand{\sset}[2]{\left\{~#1 \left|
+\begin{array}{l}#2\end{array}
+\right.     \right\}}
+
+\newcommand{\id}[1]{\mbox{\textit{#1}}}
+\newcommand{\tuple}[1]{\langle #1 \rangle}
+\newcommand{\impl}{\mathbin{\Rightarrow}}
+\newcommand{\biim}{\mathbin{\Leftrightarrow}}
+
+\begin{document}
+
+\begin{center}
+{\sc The University of Melbourne
+\\
+(Department)
+\\ 
+(Caption)}
+\bigskip \\
+{\Large\bf (Heading)}
+\bigskip \\
+{\large (Sub-Heading)}
+\end{center}
+
+\section*{(Section 1)}
+(Section Content)
+
+
+\section*{(Section 2)}
+
+\hfill
+\begin{enumerate}
+
+\item	(Item 1)
+\begin{itemize}
+\item (Sub-Item bulletpoint 1)
+\item (Sub-Item bulletpoint 2)
+\item (Sub-Item bulletpoint 3)
+\end{itemize}
+
+\hfill
+\item	(Item 2)
+\begin{enumerate}
+\item (Sub-Item enum alphabet 1)
+\item (Sub-Item enum alphabet 2)
+\item (Sub-Item enum alphabet 3)
+\end{enumerate}
+
+\hfill
+\item	(Item 3)
+\begin{enumerate}
+\item[(i)] (Sub-Item customize 1)
+\item[(ii)] (Sub-Item customize 2)
+\item[(iii)] (Sub-Item customize 3)
+\end{enumerate}
+
+\end{enumerate}
+
+\section*{(Section 3)}
+(Section Content)
+
+\begin{flushright}
+(Author Name)
+\\ (Date)
+\end{flushright}
+
+\end{document}
